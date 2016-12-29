@@ -1,0 +1,5 @@
+# file: 
+- hosts : '{{ hosts }}'
+#- hosts : 
+  roles : 
+    - stop_liberty_server

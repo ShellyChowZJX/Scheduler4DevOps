@@ -1,0 +1,5 @@
+- name: Stop IBM WebSphere Liberty Server
+  become : yes
+  become_method : sudo 
+  become_user : user1
+  command : /opt/IBM/WebSphere/wlp/bin/server stop server1
